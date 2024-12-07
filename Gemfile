@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem 'rack', ' ~> 2.2.3'
-gem 'sinatra', ' ~> 2.0.7'
+gem 'rack', '~> 2.2'
+gem 'puma', '~> 6.4'
+gem 'sinatra', '~> 3.1'
+gem 'haml', '~> 6.2'
