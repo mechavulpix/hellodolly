@@ -19,5 +19,5 @@ RUN bundle install
 ENV APP_ENV="production"
 EXPOSE 4567
 
-CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "--port", "4567"]
+CMD ["bundle", "exec", "puma", "--port", "4567"]
 
